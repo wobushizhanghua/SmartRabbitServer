@@ -1,7 +1,10 @@
 # SmartRabbitServer
-SmartRabbitServer is a hight performance server as well as a set of server libs.
+SmartRabbitServer is a lightweight server and a set of server libs. It is single threaded but it can easyly deployed to multiple processes 
+
 It is written by C
 
 1. C as the core
 2. make-sweep GC algorithem to manager memory
-3. script vm inside so you can write your server logic easily with a lua-like script grammar
+3. script vm inside so you can write your server logic easily with a lua-like script language
+4. adobe amf3 as the transport protocol , so it can be easily intergrated with flash web client, but if you don't like it, you can changed it with any protocol you want, code is clear
+
