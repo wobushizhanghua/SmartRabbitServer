@@ -1,5 +1,5 @@
 # SmartRabbitServer
-SmartRabbitServer is a lightweight server and a set of server libs. It is single threaded with mutipletask scripts, also it can be easyly deployed to multiple processes 
+SmartRabbitServer is a lightweight server, the server contains a series of server libs. It is single threaded with muti-task scripts, but can also be easily deployed to multiple processes 
 
 It is written by C
 
